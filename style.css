@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    max-width: 1440px;
+    padding-top: 50px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+        .text1 p {
+            font-size: 24px;
+            font-family: "Roboto", sans-serif;
+            margin: 30px 0;
+        }
+.text1 {
+    width: 662px;
+}
+h1{
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+}
+.camera-logo{
+    width: 314px;
+    margin-top: 100px;
+}
+.ellipse{
+    width: 100%;
+    }
+    .camera{
+        border: 1px solid black;
+        position: relative;
+        top: 30px;
+        width: 100%;
+        right: 8px;
+        box-shadow: 0px 1px rgb(208, 194, 194);
+    }
+    .text2{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 135px;
+}
+.logo{
+    width: 232px;
+}
+.logo2{
+    position: relative;
+    top: 20px;
+    right: 25px;
+}
+.logo img{
+    width: 100%;
+}
+.text3{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 7%;
+}
+.text4{
+    max-width: 21%;
+    }
+       
+    
+    .text3 p{
+            font-family: "Roboto", sans-serif;
+        }
+
+.time{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+@media (min-width: 601px) and (max-width: 900px) {
+    .all{
+        max-width: 100%;
+        padding: 40px 60px 0;
+    }
+    .logo{
+        display: none;
+    }
+    .logo img{
+        width: 0;
+    }
+    .text1 p {
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .text{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .text1 {
+        width: 383px;
+    }
+    .camera-logo{
+        width: 182px;
+    }
+    .camera{
+        border: none;
+        position: relative;
+        top: 25px;
+        width: 100%;
+        left: 18px;
+        box-shadow: none;
+    }
+    .ellipse{
+        width: 120%;
+    }
+    h1{
+        font-size: 32px;
+        margin-bottom: 28px;
+    }
+    .text2{
+        padding-left: 0px;
+    }
+    .text3{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+    .time{
+        font-size: 15px;
+        margin-bottom: 4px;
+    }
+    .text4 p{
+        font-size: 11px;
+        line-height: 130%;
+    }
+}
+@media (min-width: 300px) and (max-width:600px) {
+    .all{
+        max-width: 100%;
+        padding: 40px 100px 0;
+    }
+    .logo{
+        display: none;
+    }
+    .text1 p {
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+    }
+    .text1 {
+        max-width: 309px;
+        line-height: 150%;
+        padding: 0;
+    }
+    .camera-logo{
+        width: 170.55px;
+        margin-right: 40px;
+        margin-top: 0;
+    }
+
+    .camera{
+        border: none;
+        position: relative;
+        top: 20px;
+        width: 100%;
+        left: 18px;
+        box-shadow: none;
+    }
+    .ellipse{
+        width:200px;
+        
+    }
+
+    h1{
+        font-size: 26px;
+        margin-bottom: 25px;
+        line-height: 130%;
+    }
+    .text2{
+        margin-top: 30px;
+        padding-left: 0px;
+    }
+    .text3{
+
+        display: flex;
+        max-width: 100%;
+        flex-wrap: wrap;
+        margin-left: 0;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .text4{
+        width: 100%;
+        margin: 20px 40px;
+    }
+    .time{
+
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .text4 p{
+
+        font-size: 10px;
+        line-height: 130%;
+        margin-top: 4px;
+    }
+}
